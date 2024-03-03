@@ -93,7 +93,7 @@ forms.addEventListener("submit", (e) => {
     const confimStatus = confirm("Are you sure you want to proceed?");
     emailFlag = false;
     passFlag = false;
-    
+
     if (confimStatus) {
       alert("Successful signup!");
     } else {
